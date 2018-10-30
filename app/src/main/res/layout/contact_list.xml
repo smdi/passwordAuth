@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/topRelative"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:elevation="2dp"
+        android:innerRadius="4dp"
+        android:shape="rectangle"
+        android:thicknessRatio="10"
+        app:cardMaxElevation="10dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="10dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/Layout_inCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/contactName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="15dp"
+                android:lineSpacingExtra="3dp"
+                android:text="Shaik Mohammad Imran"
+                android:textColor="#000"
+                android:textScaleX=".9"
+                android:textSize="15sp"
+                android:tooltipText="this is  description" />
+
+
+
+            <TextView
+                android:id="@+id/profession"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Mufti sab"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:layout_marginTop="10dp"
+                android:tooltipText="hello" />
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/phoneIcon"
+                    android:layout_marginTop="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    app:srcCompat="@drawable/ic_phone_black_24dp"
+                    android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/contact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp"
+                android:text="7207169758"
+                android:textColorLink="@color/colorPrimaryDark"
+                android:linksClickable="true"
+                android:textScaleX=".9"
+                android:textSize="15sp"
+                android:tooltipText="this is  description" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:id="@+id/mailIcon"
+                    android:layout_marginTop="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    app:srcCompat="@drawable/ic_rubbishbindeletebutton"
+                    android:textSize="15sp" />
+
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/mail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="22dp"
+                android:autoLink="email"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:linksClickable="true"
+                android:text="smdimran838@dmail.com"
+                android:textColorLink="@color/colorPrimaryDark"
+                android:textSize="15sp" />
+
+
+        </LinearLayout>
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Al Ansaar</string>
+    <string name="title_activity_main">"Al Ansaar\t\t\t\t الأنصار"</string>
+    <string name="title_home">Home</string>
+    <string name="title_monthlybayan">Monthly Bayans</string>
+    <string name="title_downloads">Downloads</string>
+    <string name="title_events">Events</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_signout">Sign Out</string>
+    <string name="title_watsapp">Join Watsapp Group</string>
+    <string name="title_share">Share</string>
+    <string name="title_contacts">Contacts</string>
+    <string name="title_updateprofile">Account Settings</string>
+    <string name="title_live">Live Bayan</string>
+    <string name="title_notify">Notify</string>
+    <string name="title_uploads">Upload</string>
+    <string name="title_channel">Change Channel</string>
+    <string name="title_username">Username</string>
+    <string name="title_mail">Mail</string>
+    <string name="title_push">Push</string>
+    <string name="hello_blank_fragment">hello fragment</string>
+</resources>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "251895116006",
+    "firebase_url": "https://alansaar-d85df.firebaseio.com",
+    "project_id": "alansaar-d85df",
+    "storage_bucket": "alansaar-d85df.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:251895116006:android:511175e915ef9527",
+        "android_client_info": {
+          "package_name": "zulfiqar.com.passwordauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "251895116006-tcvh0gjn7pjphq07m6an8a6sos0r72u5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1hbLY8YMOASA_RRtpfjv2FDK--xVWpkU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
